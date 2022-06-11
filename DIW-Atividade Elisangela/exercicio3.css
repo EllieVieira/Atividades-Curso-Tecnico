@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: crimson;
+}
+
+.container1 {
+    background-color: rgb(40, 121, 153);
+    border: 2px solid;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.container1 div {
+    background-color: rgb(211, 163, 255);
+    border: 2px solid;
+    margin: 10px;
+}
+
+.container2 {
+    background-color: rgb(211, 163, 255);
+    border: 2px solid;
+    height: 50px;
+    margin: 10px 0;
+}
+
+.container3 {
+    background-color: rgb(40, 121, 153);
+    border: 2px solid;
+    height: 300px;
+    margin: 10px 0;
+    display: grid;
+    grid-template-areas:
+        'a1 a1 a1 a2 a3'
+        'a1 a1 a1 a4 a5'
+    ;
+}
+
+.a1 {
+    grid-area: a1;
+}
+
+.a2 {
+    grid-area: a2;
+}
+
+.a3 {
+    grid-area: a3;
+}
+
+.a4 {
+    grid-area: a4;
+}
+
+.a5 {
+    grid-area: a5;
+}
+
+.container3 div {
+    background-color: rgb(211, 163, 255);
+    border: 2px solid;
+    margin: 10px;
+    flex: 1;
+}
+
+.container4 {
+    background-color: rgb(211, 163, 255);
+    display: flex;
+    border: 2px solid;
+    height: 50px;
+    margin: 10px 0;
+}
+
+.container5 {
+    background-color: rgb(40, 121, 153);
+    border: 2px solid;
+    height: 300px;
+    margin: 10px 0;
+    display: grid;
+    grid-template-areas:
+        'a1 a2 a5 a5 a5'
+        'a3 a4 a5 a5 a5'
+    ;
+}
+
+.container5 div {
+    background-color: rgb(211, 163, 255);
+    border: 2px solid;
+    margin: 10px;
+}
+
+.container6 {
+    background-color: rgb(211, 163, 255);
+    border: 2px solid;
+    height: 100px;
+}
+
+.container6 div {
+    background-color: rgb(211, 163, 255);
+    border: 2px solid;
+    margin: 10px;
+}

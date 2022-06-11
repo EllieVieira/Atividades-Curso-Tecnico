@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <form method="post" action="ActionAtividade1.php">
+    <div>
+      <h1>Cadastro</h1>
+      <table>
+        <tr>
+          <td><label for="nome">Nome:</label></td>
+          <td><input type="text" name="ename" id="nome"></td>
+        </tr>
+        <tr>
+          <td><label for="cpf">CPF:</label></td>
+          <td><input type="number" name="ecpf" id="cpf"></td>
+        </tr>
+        <tr>
+          <td><label for="ddate">Data de Cadastro:</label></td>
+          <td><input type="date" name="edate" id="ddate" size="1" required></td>
+        </tr>
+        <tr>
+          <td><label for="dddate">Data do nascimento:</label>
+          <td><input type="date" name="fdate" id="dddate" size="1" required></td>
+        </tr>
+        <tr>
+          <td><label for="sexo">Sexo:</label></td>
+          <td><label><input type="radio" name="esexo" id="f" value="Feminino" checked><label for="f">Feminino</label>
+              <input type="radio" name="esexo" id="m" value="Masculino">
+              <label for="m">Masculino</label>
+              <label for="celular">
+                <label>
+                  <input type="radio" name="esexo" id="N" value="Nao binario"><label>Não binario</label>
+        </tr>
+        <tr>
+          <td><label for="celular">Celular:</label></td>
+          <td><input type="number" name="ecelular" id="celular"></td>
+        </tr>
+        <tr>
+          <td><label for="dmail">E-mail: </label></td>
+          <td><input type="email" name="email" id="dmail" maxlength="40" size="40" required></td>
+        </tr>
+        <tr>
+          <td><input type="submit"></td>
+        </tr>
+      </table>
+    </div>
+  </form>
+</body>
+
+</html>
