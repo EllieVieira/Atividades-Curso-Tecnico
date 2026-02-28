@@ -49,6 +49,10 @@ body {
     display: none;
 }
 
+h1{
+    text-align: center;
+}
+
 @media screen and (max-width: 600px) {
     #btn {
         display: flex;
@@ -114,5 +118,9 @@ body {
         border-top-color: transparent;
         transform: rotate(-135deg);
         top: -7;
+    }
+
+    h1{
+        display: none;
     }
 }
